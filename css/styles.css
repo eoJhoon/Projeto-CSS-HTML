@@ -1,0 +1,184 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(1, 1, 66);
+    height: 100vw;
+}
+
+
+#textos nav h1{
+    gap: 10px;
+}
+
+#buttonsb article{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#nav article{
+    display: flex;
+    justify-content: right;
+    margin-top: 15px;
+    gap: 5px;
+}
+
+
+#nav{
+   
+    display: flex;
+    justify-content: center;
+}
+
+#nav nav{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+}
+
+#nav nav ul{
+    display: flex;
+    gap: 30px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+
+#nav nav ul li{
+    display: flex;
+    list-style-type: none;
+}
+
+#nav nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#card{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    padding-top: 1vw;
+}
+
+#card article{
+    background-color: rgba(0, 0, 173, 0.2);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+
+}
+
+#card article:not(:last-child) {
+    margin-right: 20px;
+}
+
+
+
+.card-img-top{
+    width: 200px;
+    height: 200px;
+}
+
+.card-body{
+    color: white;
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+}
+
+.button{
+    color: rgb(32, 32, 163);
+    border-radius: 10px;
+    padding-left: 60px;
+    padding-right: 50px;
+;
+}
+
+.buttonone{
+    background-color:rgb(32, 32, 163);
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.buttontwo{
+    background-color: rgb(32, 32, 163);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.buttontre{
+    background-color: rgb(32, 32, 163);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+.login{
+    color: white;
+    border-radius: 30px;
+    width: 120px;
+    height: 50px;
+    background-color:  rgb(1, 1, 66);
+    border: 1px solid white;
+}
+
+.sing{
+    color: rgb(1, 1, 66);
+    border-radius: 30px;
+    width: 120px;
+    height: 50px;
+    background-color:  white;
+    border: 1px solid white;
+}
+
+
+.h1{
+    font-family: 'Gloock', serif;
+    color: white;
+    font-size: 70px;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.corh1{
+    color: blueviolet;
+}
+
+.spanh1{
+    display: block;
+}
+
+
+
+.learn{
+        color: white;
+        border-radius: 30px;
+        width: 120px;
+        height: 50px;
+        background-color:  rgb(1, 1, 66);
+        border: 1px solid white;
+}
+
+.explore{
+    color: rgb(1, 1, 66);
+    border-radius: 30px;
+    width: 120px;
+    height: 50px;
+    background-color:  white;
+    border: 1px solid white;
+}
+
+
